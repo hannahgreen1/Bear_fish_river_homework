@@ -11,6 +11,7 @@ class FishTest <MiniTest::Test
     @fish1 = Fish.new("Haddock")
     @fish2 = Fish.new("Gold")
     @fish3 = Fish.new("Plaice")
+    @fish4 = Fish.new("Cod")
   end
 
   def test_get_fish_type

@@ -6,7 +6,5 @@ class Fish
   end
 
 
-  def get_fish_type
-
-  end
+  
 end

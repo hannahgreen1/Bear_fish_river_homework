@@ -11,4 +11,13 @@ attr_reader :name, :fish
 #   return @name
 # end
 
+
+  def add_fish_to_river(fish)
+    @fish << fish
+  end
+
+  def remove_fish_from_river(fish)
+    @fish.delete(fish)
+  end
+
 end

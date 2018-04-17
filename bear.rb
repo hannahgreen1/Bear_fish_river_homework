@@ -20,4 +20,7 @@ attr_reader :bear_name, :stomach
   end
 
 
+  def noise
+    return "ROAR"
+  end
 end
